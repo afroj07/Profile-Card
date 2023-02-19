@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(199, 199, 199);
+}
+.container{
+    display: flex;
+    height: 400px;
+    width: 280px;
+    background-color:  rgb(231, 231, 231);
+    border-radius: 10px;
+    padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px gray, -5px -5px 4px white;
+}
+.topsection{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+img{
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid rgb(167, 160, 160);
+    box-shadow: 2px 2px 2px gray, -2px -2px 2px white;
+}
+h1{
+    font-size: 30px;
+    font-weight: 550;
+    color: rgb(86, 81, 81);
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(86, 81, 81);
+}
+.socialmedia {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin: 15px;
+}
+.socialmedia i{
+    font-size: 22px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 6px solid rgb(223, 214, 214);
+    box-shadow: 2px 2px 4px gray, -2px -2px 4px white;
+}
+.socialmedia i:first-child{
+    color: rgb(68, 68, 239);
+    padding: 2px;
+}
+.socialmedia i:nth-child(2){
+    color: rgb(86, 86, 255);
+    padding: 2px;
+}
+.socialmedia i:nth-child(3){
+    color: rgb(255, 92, 92);
+    padding: 3px 5px;
+}
+.socialmedia i:last-child{
+    color: red;
+    padding: 3px 2px;
+}
+.mybtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   row-gap:10px;  
+}
+.mybtn button{
+    color: rgb(69, 66, 66);
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 3px rgb(171, 164, 164), -3px -3px 4px white;
+}
+
+.likeshare{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.likeshare div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px;
+    border-right: 3px solid rgb(164, 143, 143);
+    margin: 15px;
+}
+.likeshare div i{
+    font-size:20px ;
+    color: rgb(97, 91, 91);
+}
+
+.likeshare p{
+    padding: 0px 5px;
+}
